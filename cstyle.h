@@ -210,7 +210,8 @@ static std::string makeTable(
 
 
 	// memory deallocation / cleanup
-	delete[] maxColLens, contentXY;
+	delete[] maxColLens;
+	delete[] contentXY;
 
 
 	// return (duh)
