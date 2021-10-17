@@ -10,6 +10,8 @@
 #include <vector>
 #include <map>
 
+#include <Windows.h>
+
 #include "ansi.h"
 #include "stringutil.h"
 
